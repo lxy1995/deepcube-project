@@ -14,4 +14,16 @@ pip install --upgrade dm-sonnet==1.10 matplotlib==2.2.3
 
 # 模型的前端部分具体见front-end
 
+1) docker 运行镜像并做端口映射命令
+   docker run -idt -d 8000:8000 xxxx  project.tar
+2) django 对应的python版本:python2
+3) 启动django命令: 
+   python manage.py runserver 0.0.0.0:8000
+   或者以后台命令方式启动:
+   nohup python manage.py sunserver 0.0.0.0:8000 &
+
+
+
+
+
 
