@@ -11,3 +11,7 @@ conda install --yes python==2.7.5 tensorflow-gpu==1.8.0 && conda clean --yes --a
 
 3)平台依赖库：\
 pip install --upgrade dm-sonnet==1.10 matplotlib==2.2.3
+
+# 模型的前端部分具体见front-end
+
+
