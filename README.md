@@ -23,7 +23,7 @@ pip install --upgrade dm-sonnet==1.10 matplotlib==2.2.3
    nohup python manage.py sunserver 0.0.0.0:8000 &
 
 
-
+# 后端部分详见back-end
 
 
 
